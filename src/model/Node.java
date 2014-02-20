@@ -2,8 +2,8 @@ package model;
 
 public class Node {
     private final long _id; //id
-    private final double _longitude; //lat
-    private final double _latitude; //lon
+    private final double _longitude;
+    private final double _latitude;
     
     public Node(long id, double longitude, double latitude) {
         _id = id;
@@ -22,6 +22,4 @@ public class Node {
     public double getLatitude() {
         return _latitude;
     }
-    
-    
 }
